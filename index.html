@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>El Percherito</title>
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&amp;display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <style type="text/tailwindcss">
+      body {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill='%23ea2a33' fill-opacity='0.1'%3E%3Cpath d='M50 0L61.8 11.4L50 22.8L38.2 11.4L50 0zM11.8 11.4L23.6 22.8L11.8 34.2L0 22.8L11.8 11.4zM88.2 11.4L100 22.8L88.2 34.2L76.4 22.8L88.2 11.4zM23.6 45.6L11.8 57L0 45.6L11.8 34.2L23.6 45.6zM76.4 45.6L88.2 34.2L100 45.6L88.2 57L76.4 45.6zM50 68.4L61.8 57L50 45.6L38.2 57L50 68.4zM11.8 79.8L23.6 68.4L11.8 57L0 68.4L11.8 79.8zM88.2 79.8L100 68.4L88.2 57L76.4 68.4L88.2 79.8zM50 100L61.8 88.6L50 77.2L38.2 88.6L50 100zM23.6 88.6L11.8 100L0 88.6L11.8 77.2L23.6 88.6zM76.4 88.6L88.2 77.2L100 88.6L88.2 100L76.4 88.6z'/%3E%3C/g%3E%3C/svg%3E");
+      }
+      .dark body {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill='%23f8f6f6' fill-opacity='0.1'%3E%3Cpath d='M50 0L61.8 11.4L50 22.8L38.2 11.4L50 0zM11.8 11.4L23.6 22.8L11.8 34.2L0 22.8L11.8 11.4zM88.2 11.4L100 22.8L88.2 34.2L76.4 22.8L88.2 11.4zM23.6 45.6L11.8 57L0 45.6L11.8 34.2L23.6 45.6zM76.4 45.6L88.2 34.2L100 45.6L88.2 57L76.4 45.6zM50 68.4L61.8 57L50 45.6L38.2 57L50 68.4zM11.8 79.8L23.6 68.4L11.8 57L0 68.4L11.8 79.8zM88.2 79.8L100 68.4L88.2 57L76.4 68.4L88.2 79.8zM50 100L61.8 88.6L50 77.2L38.2 88.6L50 100zM23.6 88.6L11.8 100L0 88.6L11.8 77.2L23.6 88.6zM76.4 88.6L88.2 77.2L100 88.6L88.2 100L76.4 88.6z'/%3E%3C/g%3E%3C/svg%3E");
+      }
+    </style>
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#ea2a33",
+              "background-light": "#f8f6f6",
+              "background-dark": "#211111",
+            },
+            fontFamily: {
+              display: ["Plus Jakarta Sans"],
+            },
+            borderRadius: {
+              DEFAULT: "0.25rem",
+              lg: "0.5rem",
+              xl: "0.75rem",
+              full: "9999px",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-background-light dark:bg-background-dark font-display">
+    <div class="relative flex min-h-screen w-full flex-col">
+      <header
+        class="flex items-center justify-between whitespace-nowrap border-b border-primary/20 px-4 sm:px-6 lg:px-10 py-4 bg-background-light dark:bg-background-dark"
+      >
+        <!-- header -->
+        <div class="flex items-center gap-6">
+          <div class="flex items-center gap-3 text-primary">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="currentColor"
+              viewBox="0 0 640 640"
+            >
+              <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+              <path
+                d="M385.5 132.8C393.1 119.9 406.9 112 421.8 112L424 112C446.1 112 464 129.9 464 152C464 174.1 446.1 192 424 192L350.7 192L385.5 132.8zM254.5 132.8L289.3 192L216 192C193.9 192 176 174.1 176 152C176 129.9 193.9 112 216 112L218.2 112C233.1 112 247 119.9 254.5 132.8zM344.1 108.5L320 149.5L295.9 108.5C279.7 80.9 250.1 64 218.2 64L216 64C167.4 64 128 103.4 128 152C128 166.4 131.5 180 137.6 192L96 192C78.3 192 64 206.3 64 224L64 256C64 273.7 78.3 288 96 288L544 288C561.7 288 576 273.7 576 256L576 224C576 206.3 561.7 192 544 192L502.4 192C508.5 180 512 166.4 512 152C512 103.4 472.6 64 424 64L421.8 64C389.9 64 360.3 80.9 344.1 108.4zM544 336L344 336L344 544L480 544C515.3 544 544 515.3 544 480L544 336zM296 336L96 336L96 480C96 515.3 124.7 544 160 544L296 544L296 336z"
+              />
+            </svg>
+            <h2
+              class="text-xl font-bold text-background-dark dark:text-background-light"
+            >
+              El Percherito
+            </h2>
+          </div>
+        </div>
+      </header>
+      <main class="flex-1 px-4 sm:px-6 lg:px-10 py-8">
+        <div class="max-w-7xl mx-auto">
+          <div
+            class="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-8"
+          >
+            <h1
+              class="text-4xl font-bold text-background-dark dark:text-background-light tracking-tight"
+            >
+              Christmas Sweaters
+            </h1>
+            <!-- categorias  -->
+            <div class="flex items-center gap-2 flex-wrap">
+              <button
+                class="h-10 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-primary px-4 text-sm font-medium text-white"
+              >
+                All
+              </button>
+              <button
+                class="h-10 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-background-light dark:bg-background-dark border border-primary/20 px-4 text-sm font-medium text-background-dark dark:text-background-light hover:bg-primary/10 transition-colors"
+              >
+                Mujer
+              </button>
+              <button
+                class="h-10 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-background-light dark:bg-background-dark border border-primary/20 px-4 text-sm font-medium text-background-dark dark:text-background-light hover:bg-primary/10 transition-colors"
+              >
+                Hombre
+              </button>
+              <button
+                class="h-10 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-background-light dark:bg-background-dark border border-primary/20 px-4 text-sm font-medium text-background-dark dark:text-background-light hover:bg-primary/10 transition-colors"
+              >
+                Duos
+              </button>
+            </div>
+          </div>
+          <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <!-- Products -->
+            <div
+              class="flex flex-col group bg-background-light dark:bg-background-dark p-4 rounded-xl shadow-md"
+            >
+              <div
+                class="relative w-full aspect-[3/4] bg-cover bg-center rounded-lg overflow-hidden transition-all duration-300 group-hover:scale-105"
+              >
+                <div
+                  class="absolute inset-0 bg-center bg-cover"
+                  style="
+                    background-image: url('imgs/Captura\ de\ pantalla\ 2025-09-20\ 235157.png');
+                  "
+                ></div>
+              </div>
+              <div class="pt-4">
+                <h3
+                  class="text-base font-bold text-background-dark dark:text-background-light"
+                >
+                  Duo vino
+                </h3>
+                <p class="text-sm text-primary font-semibold mt-1">$600</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer
+        class="w-full bg-background-light dark:bg-background-dark border-t border-primary/20 mt-12"
+      >
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 py-8">
+          <div
+            class="flex flex-col md:flex-row justify-between items-center gap-8"
+          >
+          </div>
+          <div
+            class="mt-8 border-t border-primary/20 pt-8 text-center text-sm text-background-dark/50 dark:text-background-light/50"
+          >
+            <p>© 2025 El Percherito. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
