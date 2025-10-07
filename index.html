@@ -41,6 +41,7 @@
         },
       };
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </head>
   <body class="bg-background-light dark:bg-background-dark font-display">
     <div class="relative flex min-h-screen w-full flex-col">
@@ -72,6 +73,7 @@
       <main class="flex-1 px-4 sm:px-6 lg:px-10 py-8">
         <div class="max-w-7xl mx-auto">
           <div
+          id="categoryContainer"
             class="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-8"
           >
             <h1
@@ -82,51 +84,33 @@
             <!-- categorias  -->
             <div class="flex items-center gap-2 flex-wrap">
               <button
-                class="h-10 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-primary px-4 text-sm font-medium text-white"
+              data-category="All"
+                class="category-btn h-10 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-primary px-4 text-sm font-medium text-white"
               >
                 All
               </button>
               <button
-                class="h-10 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-background-light dark:bg-background-dark border border-primary/20 px-4 text-sm font-medium text-background-dark dark:text-background-light hover:bg-primary/10 transition-colors"
+              data-category="Mujer"
+                class="category-btn h-10 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-background-light dark:bg-background-dark border border-primary/20 px-4 text-sm font-medium text-background-dark dark:text-background-light hover:bg-primary/10 transition-colors"
               >
                 Mujer
               </button>
               <button
-                class="h-10 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-background-light dark:bg-background-dark border border-primary/20 px-4 text-sm font-medium text-background-dark dark:text-background-light hover:bg-primary/10 transition-colors"
+              data-category="Hombre"
+                class="category-btn h-10 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-background-light dark:bg-background-dark border border-primary/20 px-4 text-sm font-medium text-background-dark dark:text-background-light hover:bg-primary/10 transition-colors"
               >
                 Hombre
               </button>
               <button
-                class="h-10 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-background-light dark:bg-background-dark border border-primary/20 px-4 text-sm font-medium text-background-dark dark:text-background-light hover:bg-primary/10 transition-colors"
+              data-category="Duos"
+                class="category-btn h-10 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-background-light dark:bg-background-dark border border-primary/20 px-4 text-sm font-medium text-background-dark dark:text-background-light hover:bg-primary/10 transition-colors"
               >
                 Duos
               </button>
             </div>
           </div>
-          <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          <div id="productsGrid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             <!-- Products -->
-            <div
-              class="flex flex-col group bg-background-light dark:bg-background-dark p-4 rounded-xl shadow-md"
-            >
-              <div
-                class="relative w-full aspect-[3/4] bg-cover bg-center rounded-lg overflow-hidden transition-all duration-300 group-hover:scale-105"
-              >
-                <div
-                  class="absolute inset-0 bg-center bg-cover"
-                  style="
-                    background-image: url('imgs/Captura\ de\ pantalla\ 2025-09-20\ 235157.png');
-                  "
-                ></div>
-              </div>
-              <div class="pt-4">
-                <h3
-                  class="text-base font-bold text-background-dark dark:text-background-light"
-                >
-                  Duo vino
-                </h3>
-                <p class="text-sm text-primary font-semibold mt-1">$600</p>
-              </div>
-            </div>
           </div>
         </div>
       </main>
