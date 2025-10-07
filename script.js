@@ -263,6 +263,7 @@ const renderProducts = (list) => {
           ></div>
           <div class="pt-4">
             <h3 class="text-base font-bold text-background-dark dark:text-background-light">${p.name}</h3>
+            <p class="text-sm text-gray font-semibold mt-1">UNITALLA</p>
             <p class="text-sm text-primary font-semibold mt-1">$${p.price}</p>
           </div>
         </div>
