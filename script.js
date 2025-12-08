@@ -29,24 +29,24 @@ const products = [
     image: "imgs/Duos/005-duo-figuras-white-coffee.png",
     category: "Duos",
   },
-  {
-    name: "Duo Renos",
-    price: 600,
-    image: "imgs/Duos/006-duo-reindeer-black.png",
-    category: "Duos",
-  },
+  // {
+  //   name: "Duo Renos",
+  //   price: 600,
+  //   image: "imgs/Duos/006-duo-reindeer-black.png",
+  //   category: "Duos",
+  // },
   {
     name: "Duo Renos",
     price: 600,
     image: "imgs/Duos/007-duo-reindeer-vino.png",
     category: "Duos",
   },
-  {
-    name: "Duo Renos",
-    price: 600,
-    image: "imgs/Duos/008-duo-reindeer-red.png",
-    category: "Duos",
-  },
+  // {
+  //   name: "Duo Renos",
+  //   price: 600,
+  //   image: "imgs/Duos/008-duo-reindeer-red.png",
+  //   category: "Duos",
+  // },
   {
     name: "Duo Renos - Sueter Vestido",
     price: 600,
