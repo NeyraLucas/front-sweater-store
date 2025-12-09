@@ -89,18 +89,18 @@ const products = [
     image: "imgs/Duos/015-duo.png",
     category: "Duos",
   },
-  {
-    name: "Duo Reno Feliz",
-    price: 600,
-    image: "imgs/Duos/016-duo.png",
-    category: "Duos",
-  },
-  {
-    name: "Duo Muñeco de Nieve",
-    price: 600,
-    image: "imgs/Duos/017-duo.png",
-    category: "Duos",
-  },
+  // {
+  //   name: "Duo Reno Feliz",
+  //   price: 600,
+  //   image: "imgs/Duos/016-duo.png",
+  //   category: "Duos",
+  // },
+  // {
+  //   name: "Duo Muñeco de Nieve",
+  //   price: 600,
+  //   image: "imgs/Duos/017-duo.png",
+  //   category: "Duos",
+  // },
   {
     name: "Duo Renos",
     price: 600,
@@ -173,12 +173,12 @@ const products = [
     image: "imgs/Woman/003-woman.png",
     category: "Mujer",
   },
-  {
-    name: "Sueter de mujer - Muñeco",
-    price: 350,
-    image: "imgs/Woman/004-woman.png",
-    category: "Mujer",
-  },
+  // {
+  //   name: "Sueter de mujer - Muñeco",
+  //   price: 350,
+  //   image: "imgs/Woman/004-woman.png",
+  //   category: "Mujer",
+  // },
   {
     name: "Sueter de mujer - Reno",
     price: 350,
@@ -197,12 +197,12 @@ const products = [
     image: "imgs/Woman/007-woman.png",
     category: "Mujer",
   },
-  {
-    name: "Sueter de hombre - Reno",
-    price: 350,
-    image: "imgs/Men/001-men.png",
-    category: "Hombre",
-  },
+  // {
+  //   name: "Sueter de hombre - Reno",
+  //   price: 350,
+  //   image: "imgs/Men/001-men.png",
+  //   category: "Hombre",
+  // },
   {
     name: "Sueter de hombre - Galleta",
     price: 350,
@@ -221,12 +221,12 @@ const products = [
     image: "imgs/Men/004-men.png",
     category: "Hombre",
   },
-  {
-    name: "Sueter de hombre - Muñeco",
-    price: 350,
-    image: "imgs/Men/005-men.png",
-    category: "Hombre",
-  },
+  // {
+  //   name: "Sueter de hombre - Muñeco",
+  //   price: 350,
+  //   image: "imgs/Men/005-men.png",
+  //   category: "Hombre",
+  // },
   {
     name: "Sueter de hombre - Grinch",
     price: 350,
