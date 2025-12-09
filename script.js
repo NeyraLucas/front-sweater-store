@@ -12,7 +12,7 @@ const products = [
   //   category: "Duos",
   // },
   {
-    name: "Duo Nochebuena",
+    name: "Duo Nochebuena - Solo corte mujer",
     price: 600,
     image: "imgs/Duos/003-duo-noche-buena-white-black.png",
     category: "Duos",
@@ -84,7 +84,7 @@ const products = [
     category: "Duos",
   },
   {
-    name: "Duo Grinch",
+    name: "Duo Grinch - Solo corte mujer",
     price: 600,
     image: "imgs/Duos/015-duo.png",
     category: "Duos",
@@ -126,7 +126,7 @@ const products = [
     category: "Duos",
   },
   {
-    name: "Duo Figuras",
+    name: "Duo Figuras - solo corte hombre",
     price: 600,
     image: "imgs/Duos/022-duo.png",
     category: "Duos",
