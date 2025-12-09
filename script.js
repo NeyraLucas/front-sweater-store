@@ -143,12 +143,12 @@ const products = [
     image: "imgs/Duos/024-duo.png",
     category: "Duos",
   },
-  {
-    name: "Duo Figuras",
-    price: 600,
-    image: "imgs/Duos/025-duo.png",
-    category: "Duos",
-  },
+  // {
+  //   name: "Duo Figuras",
+  //   price: 600,
+  //   image: "imgs/Duos/025-duo.png",
+  //   category: "Duos",
+  // },
   // {
   //   name: "Duo Figuras",
   //   price: 600,
